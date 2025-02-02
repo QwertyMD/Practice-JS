@@ -1,0 +1,39 @@
+body {
+  background-color: #68687a;
+  margin: 0 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100vh;
+}
+
+.img {
+  height: 50vh;
+  width: 100px;
+  border-radius: 50px;
+  transition: all ease 0.5s;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.img01 {
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10368.jpg");
+}
+.img02 {
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10451.jpg");
+  background-position-x: -70px;
+}
+.img03 {
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10467.jpg");
+}
+.img04 {
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/16944.jpg");
+}
+.img05 {
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10471.jpg");
+}
+.img06 {
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/10452.jpg");
+}

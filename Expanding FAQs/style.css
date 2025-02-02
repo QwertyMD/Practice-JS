@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "JetBrains Mono";
+  background-color: #403d52;
+  color: white;
+}
+
+.content {
+  color: black;
+  background-color: lightblue;
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 80vw;
+  margin: 1rem auto;
+}
+
+.box {
+  border: 2px solid;
+  border-radius: 1.2rem;
+  padding: 0.7rem;
+}
+
+h2,
+h3 {
+  text-align: left;
+  margin: 0.7rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.before-exp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+svg {
+  cursor: pointer;
+}

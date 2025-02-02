@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100vh;
+  align-content: center;
+  background-color: #1d1d1d;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  width: 800px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 12px;
+  width: 12px;
+  background-color: rgb(63, 63, 63);
+}

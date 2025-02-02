@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  height: 100vh;
+  position: relative;
+  background-color: #000;
+  --bgImg: url("https://4kwallpapers.com/images/walls/thumbs_3t/19141.jpg");
+
+  &::after {
+    transition: all ease 0.5s;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: var(--bgImg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.3;
+  }
+}
+
+.content {
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 3rem;
+}
+
+.image {
+  border: 2px solid white;
+  transition: all ease 0.5s;
+  border-radius: 1rem;
+  width: 60vw;
+  height: 50vh;
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/19141.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+svg {
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all ease 0.3s;
+}
+#prev:active {
+  transform: translate(-0.7rem);
+}
+#next:active {
+  transform: translate(0.7rem);
+}

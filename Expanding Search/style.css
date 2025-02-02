@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: #717188;
+}
+.create {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  input {
+    font-family: "JetBrains Mono";
+    border-radius: 1rem;
+    width: 0px;
+    height: 34px;
+    transition: all 1s;
+    padding: 5px 2.2rem 5px .5rem;
+    border: 3px outset lightcoral;
+    background-color: rgb(255, 249, 249);
+  }
+  svg {
+    padding: 12.6px;
+    border-radius: 14px;
+    transition: all 1s;
+    position: absolute;
+    cursor: pointer;
+  }

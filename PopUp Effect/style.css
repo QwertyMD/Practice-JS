@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+body {
+  font-family: "JetBrains Mono";
+  margin: 0;
+  height: 100vh;
+  background-color: #464455;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#click {
+  font-family: "JetBrains Mono";
+  padding: 0 2rem;
+  cursor: pointer;
+  background-color: #7e6fd4;
+  color: #fff;
+  border: none;
+  border-radius: 3rem;
+  box-shadow: 0 0 1rem 0 #000;
+
+  &:hover {
+    background-color: #5a4f97;
+  }
+
+  &:active {
+    background-color: #7e6fd4;
+  }
+}
+
+.pop {
+  transition: all ease 1s;
+  padding: 5rem;
+  position: fixed;
+  background-color: #6f63b8;
+  color: #fff;
+  transform: scale(0);
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0 #000;
+}
+
+.btn > svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

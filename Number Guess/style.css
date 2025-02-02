@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6a6a7c;
+  font-family: "JetBrains Mono";
+}
+
+.content {
+  margin: 1rem;
+  background-color: lightcoral;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+  border: 2px solid;
+  box-shadow: 0 0 10px 0;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: lightcyan;
+}
+
+input[type="number"],
+#guess,
+#again {
+  font-family: "JetBrains Mono";
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: azure;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+#again {
+  margin: 0;
+}
+
+#guess,
+#again {
+  cursor: pointer;
+}

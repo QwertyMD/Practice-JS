@@ -1,0 +1,10 @@
+.box{
+    transition: all ease 1s;
+    opacity: 0;
+    transform: translate(-50vw);
+}
+
+.visible{
+    opacity: 1;
+    transform: translate(0);
+}
