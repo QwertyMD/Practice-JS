@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  cursor: cell;
+  position: relative;
+  overflow: hidden;
+  background-color: lightskyblue;
+  font-family: "JetBrains Mono";
+}
+
+body::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://wallpapers.com/images/high/chaotic-anime-room-1zye7yebx08tpf48.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  filter: blur(3px);
+  position: absolute;
+  z-index: -1;
+}
+
+.counter {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: x-large;
+  display: flex;
+  gap: 3px;
+  color: white;
+}
+
+#butt {
+  cursor: url("cursor.png") 32 32, cell;
+  border: 7px solid;
+  background-color: lightcoral;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  /* transition: all ease .1s; */
+}
